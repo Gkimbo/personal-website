@@ -32,7 +32,7 @@ const TechnicalSkills = () => {
 			bgImageAlt="the cat"
 			strength={800}
 		>
-			<h2 className="section-heading">Technical Skills</h2>
+			<h2 className="section-heading-tech">Technical Skills</h2>
 			<Grid container spacing={2} justifyContent="center">
 				{Object.entries(skillsData).map(([category, skills], index) => (
 					<Grid key={index} item xs={12} sm={6} md={4}>
