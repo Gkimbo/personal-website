@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import image1 from "../images/tudor-baciu-vc3iVL_znJ8-unsplash.jpg";
+import image1 from "../images/IMG_5335.jpg";
 
 export const BackGroundImage1 = () => (
 	<Parallax className="image" bgImage={image1} bgImageAlt="mug" strength={800}>
