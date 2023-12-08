@@ -11,10 +11,10 @@ const WorkExperience = () => {
 			position: "Junior Full Stack Developer",
 			date: "April 2023 - August 2023",
 			responsibilities: [
-				"Completed an immersive Full Stack Developer program, gaining skills in JavaScript, HTML, CSS, React, SQL, Cypress testing, and more.",
-				"Practiced unit testing, test-driven development, software engineering, and responsive web design.",
-				"Collaborated effectively in a team environment, practiced pair programming, and leveraged teamwork for high-quality project delivery.",
-				"Implemented object-oriented programming, design patterns, and flow control to build various web applications.",
+				" Completed an immersive Full Stack Developer program, gaining skills in various tools and languages, including JavaScript, React, SQL, Cypress testing, Jest testing, Express.js, Node.js, RESTful API Design, Responsive Web Design, Problem Solving, Version Control (Git).",
+				" Implemented unit testing, test-driven development, and responsive web design, including use of JSON, HTTP.",
+				" Collaborated effectively in a team environment, pair programmed and working fast to deliver high-quality projects in an efficient and effective manner.",
+				" Implemented object-oriented design patterns to create efficient flow control in the development of diverse web applications.",
 			],
 			image: launchImg,
 		},
@@ -24,8 +24,9 @@ const WorkExperience = () => {
 			position: "Second Mate",
 			date: "June 2022 - April 2023",
 			responsibilities: [
-				"Oversaw critical aspects, including the weekly transfer of 1.4 million gallons of cargo, maintaining ship stability through ballast and cargo management.",
-				"Planned and executed safe navigation routes, effectively managing teams to ensure the safety and security of the vessels.",
+				" Demonstrated leadership in managing diverse teams, prioritizing safety, and fostering effective teamwork while overseeing critical operations.",
+				" Executed key responsibilities, including managing the coordination of vessel logistics and overseeing the weekly transfer of 1.4 million gallons of cargo.",
+				" Thrived in high-pressure scenarios, making decisions to guarantee the safety and security of vessels, showcasing exceptional attention to detail and focus.",
 			],
 			image: CrowleyImg,
 		},
@@ -35,18 +36,18 @@ const WorkExperience = () => {
 			position: "Second Officer",
 			date: "June 2016 - June 2022",
 			responsibilities: [
-				"Maintained the Ordnance Information System (OIS) using JavaScript, ensuring reliability and functionality.",
-				"Collaborated with the IT department to troubleshoot and resolve technical issues related to the OIS, ensuring uninterrupted operations.",
-				"Supervised a department of 30 personnel, including but not limited to payroll, safety, training, and communication.",
-				"In charge of Ammunition Cargo Operations in port and at sea.",
-				"Oversaw all flight deck operations, including safety walk-throughs, firefighting, and cargo transfer.",
+				" Drove enhancements and maintenance of the Ordnance Information System (OIS) utilizing JavaScript, ensuring seamless functionality and reliability.",
+				" Spearheaded collaborative efforts with the IT department to troubleshoot and resolve technical issues.",
+				" Supervised a department of 30 personnel including but not limited to payroll, safety, training, and communication.",
+				" In charge of Ammunition Cargo Operations in port and at sea.",
+				" Oversaw all flight deck Operations, including safety walk-throughs, FireFighting, and Cargo Transfer.",
 			],
 			image: MscImg,
 		},
 	];
 
 	return (
-		<div className="work-experience-container">
+		<div className="container">
 			<h2 className="section-heading">Work Experience</h2>
 			{experiences.map((experience, index) => (
 				<div key={index} className="experience-item">

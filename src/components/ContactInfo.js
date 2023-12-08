@@ -3,8 +3,8 @@ import React from "react";
 
 const Contact = () => {
 	return (
-		<div className="contact-container">
-			<h2 className="section-heading-contact">Contact</h2>
+		<div className="container-contact">
+			<h2 className="section-heading">Contact</h2>
 			<div className="contact-info">
 				<p>
 					Email:{" "}

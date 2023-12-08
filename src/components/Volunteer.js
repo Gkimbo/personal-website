@@ -13,8 +13,8 @@ const VolunteerExperience = () => {
 	];
 
 	return (
-		<div className="volunteer-experience-container">
-			<h2 className="section-heading-vol">Volunteer Experience</h2>
+		<div className="container">
+			<h2 className="section-heading">Volunteer Experience</h2>
 			{volunteerData.map((volunteer, index) => (
 				<div key={index} className="volunteer-item">
 					<h3 className="organization">{volunteer.organization}</h3>

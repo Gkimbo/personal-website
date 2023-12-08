@@ -18,8 +18,8 @@ const Projects = () => {
 	];
 
 	return (
-		<div className="projects-container">
-			<h2 className="section-heading-projects">Projects</h2>
+		<div className="container">
+			<h2 className="section-heading">Projects</h2>
 			{projectData.map((project, index) => (
 				<div key={index} className="project-item">
 					<h3 className="project-title">{project.name}</h3>
