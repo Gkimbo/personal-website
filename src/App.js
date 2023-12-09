@@ -6,17 +6,28 @@ import VolunteerExperience from "./components/Volunteer";
 import TechnicalSkills from "./components/TechnicalSkills";
 import ContactInfo from "./components/ContactInfo";
 import Interests from "./components/Interests";
+import { FadeInSection } from "./components/services/FadeInSection";
 
 function App() {
 	return (
 		<div className="app">
 			<BackGroundImage1 />
-			<Content />
-			<WorkExperience />
-			<Projects />
-			<VolunteerExperience />
+			<FadeInSection>
+				<Content />
+			</FadeInSection>
+			<FadeInSection>
+				<WorkExperience />
+			</FadeInSection>
+			<FadeInSection>
+				<Projects />
+			</FadeInSection>
+			<FadeInSection>
+				<VolunteerExperience />
+			</FadeInSection>
 			<TechnicalSkills />
-			<Interests />
+			<FadeInSection>
+				<Interests />
+			</FadeInSection>
 			<ContactInfo />
 		</div>
 	);
