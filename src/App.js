@@ -12,9 +12,7 @@ function App() {
 	return (
 		<div className="app">
 			<BackGroundImage1 />
-
 			<Content />
-
 			<FadeInSection>
 				<WorkExperience />
 			</FadeInSection>
