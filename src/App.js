@@ -12,9 +12,9 @@ function App() {
 	return (
 		<div className="app">
 			<BackGroundImage1 />
-			<FadeInSection>
-				<Content />
-			</FadeInSection>
+
+			<Content />
+
 			<FadeInSection>
 				<WorkExperience />
 			</FadeInSection>
