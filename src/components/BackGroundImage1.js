@@ -13,7 +13,7 @@ export const BackGroundImage1 = () => {
 			className="image"
 			bgImage={image1}
 			bgImageAlt="mug"
-			strength={800}
+			strength={400}
 			bgImageStyle={{ ...bgImageStyle }}
 		>
 			<div className="content">

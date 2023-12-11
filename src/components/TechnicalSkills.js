@@ -5,7 +5,7 @@ import backgroundImage from "../images/tudor-baciu-vc3iVL_znJ8-unsplash.jpg";
 
 const TechnicalSkills = () => {
 	const skillsData = {
-		languages: [
+		Languages: [
 			"React",
 			"React Native",
 			"TypeScript",
@@ -14,28 +14,27 @@ const TechnicalSkills = () => {
 			"HTML",
 			"CSS",
 		],
-		databases: ["SQL", "PostgreSQL"],
-		softwareTools: [
-			"Sass",
-			"Foundation",
-			"Git",
-			"GitHub",
-			"Express.js",
-			"Passport",
-		],
+		Databases: ["SQL", "PostgreSQL"],
+		Tools: ["Sass", "Foundation", "Git", "GitHub", "Express.js", "Passport"],
 	};
 
 	return (
 		<Parallax
 			className="technical-skills-container"
 			bgImage={backgroundImage}
-			bgImageAlt="the cat"
-			strength={800}
+			bgImageAlt="mug"
+			strength={400}
 		>
 			<h2 className="section-heading-tech">Technical Skills</h2>
 			<Grid container spacing={2} justifyContent="center">
 				{Object.entries(skillsData).map(([category, skills], index) => (
-					<Grid key={index} item md={4}>
+					<Grid
+						className="skills-categories-container"
+						key={index}
+						item
+						xs={12}
+						md={4}
+					>
 						<div className="skills-category">
 							<h3>{category}</h3>
 							<p className="skills-list">{skills.join(", ")}</p>
