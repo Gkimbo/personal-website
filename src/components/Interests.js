@@ -35,7 +35,7 @@ const Interests = () => {
 			<h2 className="section-heading">My Interests</h2>
 			<Grid container spacing={4} justifyContent="center">
 				{interestsData.map((interest, index) => (
-					<Grid key={index} item xs={12} sm={6} md={4} lg={2}>
+					<Grid key={index} item sm={12} md={4} lg={2}>
 						<div key={index} className="interest-item">
 							<h3 className="interest-title">{interest.name}</h3>
 							<p className="interest-description">{interest.description}</p>
