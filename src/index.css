@@ -54,9 +54,45 @@ code {
 		margin-top: -30vh;
 		margin-left: 20%;
 	}
-	@media (max-width: 450px) {
+	@media (max-width: 1450px) {
 		margin-top: -35vh;
 	}
+	@media (max-width: 600px) {
+		margin-top: -40vh;
+	}
+	@media (max-width: 486px) {
+		margin-top: -45vh;
+	}
+}
+
+.social-links {
+	display: flex;
+	flex-direction: row;
+	padding-left: 5%;
+	gap: 20px;
+}
+
+.social-links a {
+	text-decoration: none;
+}
+
+.social-links a img {
+	width: auto;
+	height: 50px;
+	@media (max-width: 819px) {
+		height: 35px;
+	}
+	@media (max-width: 651px) {
+		height: 25px;
+	}
+	@media (max-width: 426px) {
+		height: 15px;
+	}
+}
+
+.linkedin-logo {
+	padding-top: 3%;
+	padding-left: 12%;
 }
 
 .content h1 {
@@ -69,7 +105,7 @@ code {
 		text-align: center;
 		font-size: 3em;
 	}
-	@media (max-width: 450px) {
+	@media (max-width: 600px) {
 		text-align: center;
 		font-size: 1.4em;
 	}
@@ -83,12 +119,26 @@ code {
 		text-align: center;
 		font-size: 1.3em;
 	}
-	@media (max-width: 436px) {
+	@media (max-width: 600px) {
 		text-align: center;
 		font-size: 1em;
 	}
 }
 
+.content p {
+	font-size: 1.5em;
+	font-style: italic;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	margin: 0;
+	@media (max-width: 818px) {
+		text-align: center;
+		font-size: 1em;
+	}
+	@media (max-width: 600px) {
+		text-align: center;
+		font-size: 0.8em;
+	}
+}
 .about-me {
 	display: flex;
 	flex-direction: column;
