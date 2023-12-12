@@ -22,9 +22,7 @@ function App() {
 			<FadeInSection>
 				<VolunteerExperience />
 			</FadeInSection>
-			<FadeInSection>
-				<TechnicalSkills />
-			</FadeInSection>
+			<TechnicalSkills />
 			<FadeInSection>
 				<Interests />
 			</FadeInSection>
