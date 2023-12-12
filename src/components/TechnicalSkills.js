@@ -11,11 +11,12 @@ const TechnicalSkills = () => {
 			"TypeScript",
 			"JavaScript",
 			"Python",
+			"C#",
 			"HTML",
 			"CSS",
 		],
 		Databases: ["SQL", "PostgreSQL"],
-		Tools: ["Sass", "Foundation", "Git", "GitHub", "Express.js", "Passport"],
+		Tools: ["Sass", "MaterialUI", "Git", "GitHub", "Express.js", "Passport"],
 	};
 
 	return (
