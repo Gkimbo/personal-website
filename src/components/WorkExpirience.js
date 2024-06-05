@@ -6,6 +6,16 @@ import MscImg from "../images/MSC.png";
 const WorkExperience = () => {
 	const experiences = [
 		{
+			company: "Military Sealift Command",
+			location: "Norfolk, VA",
+			position: "Damage Control Officer",
+			date: "March 2024 - Present",
+			responsibilities: [
+				" Oversaw all training on flight deck Operations, including safety walk-throughs, FireFighting, and Cargo Transfer.",
+			],
+			image: MscImg,
+		},
+		{
 			company: "Launch Academy",
 			location: "Boston, MA",
 			position: "Junior Full Stack Developer",
