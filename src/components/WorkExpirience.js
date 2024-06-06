@@ -11,7 +11,8 @@ const WorkExperience = () => {
 			position: "Damage Control Officer",
 			date: "March 2024 - Present",
 			responsibilities: [
-				" Oversaw all training on flight deck Operations, including safety walk-throughs, FireFighting, and Cargo Transfer.",
+				" Lead training on flight deck Operations, including safety walk-throughs, FireFighting, and Shipboard safety.",
+				" Created training plans, for all mariners.",
 			],
 			image: MscImg,
 		},
